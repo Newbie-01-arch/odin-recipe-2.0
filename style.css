@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Verdana, 'Times in roman', sans-serif;
+}
+
+body{
+    background-color: #D5D5D5;
+}
+
+.main-page{
+   text-align: center; 
+}
+
+.main-page h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(34, 193, 195, 1);
+}
+
+.main-page ul li a{
+    text-decoration: none;
+    color: hsla(210, 100%, 50%, 1);
+    font-weight: 900;
+    line-height: 1.5rem;
+    font-size: 15px;
+}
