@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: Verdana, 'Times in roman', sans-serif;
 }
 
 body{
     background-color: #D5D5D5;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4{
+    font-family: 'Playfair Display', serif;
+    text-decoration: underline;
+    color: red;
 }
 
 .main-page{
@@ -27,4 +37,55 @@ body{
     font-weight: 900;
     line-height: 1.5rem;
     font-size: 15px;
+}
+
+.recipe.main{
+    background-color: #e7f9f4;
+    border: 2px solid red;
+    padding: 10px;
+    font-family: 'Patrick Hand', 'Gill Sans MT', sans-serif !important;
+}
+
+.recipe-item{
+    margin-left: 200px;
+    padding: 10px;
+}
+
+
+
+.recipe-item img{
+    width: 200px;
+    height: auto;
+    border: 1px solid red;
+}
+
+
+
+.recipe-item p{
+    text-align: left;
+}
+
+
+.recipe-item ul{
+    list-style-type: disc;
+    line-height: 2rem;
+}
+
+.recipe-item ol{
+    line-height: 2rem;
+}
+
+.recipe-item h1,img,p,ul,ol{
+    margin: 5px;
+}
+
+
+.recipe.main.two{
+    background-color: #f0f0f0;
+    border: 2px solid crimson;
+}
+
+.recipe.main.three{
+    background-color: #f5f5dc;
+    border: 2px solid darkred;
 }
