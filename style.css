@@ -21,38 +21,30 @@ h4{
 }
 
 .main-page{
-    text-align: center;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .main-page h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 800;
-    color: turquoise;
-    text-transform: uppercase;
+    color: #ff5544;
+    font-size: 4rem;
     text-decoration: none;
+  }
+
+  .recipe-list ul li{
+    list-style-type: none;
+    border: 2px solid red;
+    padding: 2px;
+  }
+
+  .recipe-list ul{
+    display: flex;
+    gap: 5px;
   }
 
   .recipe-list a{
     text-decoration: none;
-    background-color: rgb(104, 104, 104);
-    padding: 2px;
-    color: red;
-  }
-  .recipe-list {
-    padding: 5px;
-    width: 500px;
-    margin: auto;
-    border: 5px solid black;
-    vertical-align: top;
-    
-  }
-
-  .recipe-list li{
-    list-style-type: none;
-    margin-right: 10px;
-    display: inline-block;
-    
   }
 
 .recipe.main{
