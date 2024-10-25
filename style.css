@@ -15,7 +15,7 @@ h1,
 h2,
 h3,
 h4{
-    font-family: 'Playfair Display', serif;
+    font-family: inherit;
     text-decoration: underline;
     color: red;
 }
@@ -51,7 +51,7 @@ h4{
     background-color: #e7f9f4;
     border: 2px solid red;
     padding: 10px;
-    font-family: 'Patrick Hand', 'Gill Sans MT', sans-serif;
+    font-family: inherit;
 }
 
 .recipe-item{
