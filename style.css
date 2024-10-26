@@ -47,6 +47,14 @@ h4{
     text-decoration: none;
   }
 
+  .recipe-list li{
+    flex:1;
+  }
+
+  .recipe-list li:nth-child(2){
+    flex:2;
+  }
+
 .recipe.main{
     background-color: #e7f9f4;
     border: 2px solid red;
