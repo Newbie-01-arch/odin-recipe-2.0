@@ -56,7 +56,7 @@ h4{
   }
 
 .recipe.main{
-    background-color: #e7f9f4;
+    background-color: rgb(50, 32, 82);
     border: 2px solid red;
     padding: 10px;
     font-family: inherit;
