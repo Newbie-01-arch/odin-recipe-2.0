@@ -98,7 +98,7 @@ h4{
 
 .recipe.main.two{
     background-color: #f0f0f0;
-    border: 2px solid crimson;
+    border: 2px solid rgba(40, 81, 19, 0.5);
 }
 
 .recipe.main.three{
