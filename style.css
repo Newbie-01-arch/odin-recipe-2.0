@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: #fff000;
+    background:linear-gradient(rgba(12,23,255),red);
     font-family: 'Open Sans', sans-serif;
     /* font-family: 'Times New Roman', Times, serif; */
 }
@@ -73,6 +73,7 @@ h4{
 
 .recipe-item img{
     width: 200px;
+    float: right;
     height: auto;
     border: 1px solid #dfdf33;
 }
